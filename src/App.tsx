@@ -1,25 +1,28 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import shipmentType from './types/shipmentType';
+import Tab from './components/TabComponent/Tab';
+import fetchShipments from './services/fetchShipments';
 
 function App() {
+    const [shipments, setShipment] = useState<shipmentType[] | null>(null)
+
+    useEffect(() => {
+        fetchShipments().then((list) => {
+            if(list){
+                setShipment(list)
+            }else{
+                //Create toast
+            }
+        })
+    }, [])
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="App">
+      {shipments ? <Tab shipments={shipments}/> : <p>Loading...</p>}
+    </main>
   );
 }
 

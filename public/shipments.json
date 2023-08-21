@@ -1,0 +1,16 @@
+{
+    "list": [
+        {
+            "id": "d3ff0c68892",
+            "name": "Amazon.com",
+            "email": "contact@amazon.com",
+            "boxes": "6.8,7.9,3"
+        },
+        {
+            "id": "d3ff0c68893",
+            "name": "American Express",
+            "email": "contact@americanexpress.com",
+            "boxes": "6.2,5.9,4,6.9,4.4,1.7,9.5"
+        }
+    ]
+}
