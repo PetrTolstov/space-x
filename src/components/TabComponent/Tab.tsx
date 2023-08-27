@@ -55,7 +55,7 @@ const TabComponent = () => {
                     </div>
                 </div>
                 <BurgerButton onClick={() => setShowHeadings((prevState) => !prevState)} showHeadings={showHeadings} />
-            </> : <p> Loading...</p >}
+            </> : <div className={styles.loadingContainer}><span className={styles.loading}></span ></div>}
 
         </div>)
 }
