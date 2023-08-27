@@ -1,12 +1,11 @@
-@media screen and  (max-width: 500px) {
-    .tabHeadingContainer{
+@media screen and (max-width: 500px) {
+    .tabHeadingContainer {
         position: fixed;
         width: 100% !important;
         height: 100%;
-        background-color: #1B1D22;
+        background-color: #1b1d22;
     }
 }
-
 
 .tabContainer {
     display: flex;
@@ -21,9 +20,6 @@
     margin-right: 50px;
 }
 
-.tabHeadingOfHeadings{
-    margin-top: 0;
-}
 
 .tabHeading {
     color: white;
@@ -42,65 +38,81 @@
 }
 
 .tabContentContainer {
+    margin-top: 0.83rem;
     flex-grow: 1;
     border-radius: 10px;
-    padding: 10px 20px ;
-    background: linear-gradient(to bottom right, #2D3038, transparent);
+    padding: 10px 20px;
+    background: linear-gradient(to bottom right, #2d3038, transparent);
     overflow-x: hidden;
 }
 
-.boxesContainer{
+.boxesContainer {
     display: flex;
     overflow-x: scroll;
     flex-direction: row;
 }
 
-.box{
+.boxesContainer::-webkit-scrollbar {
+    width: 20px;
+}
+
+.boxesContainer::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.boxesContainer::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+.box {
     min-width: 50px;
     height: 50px;
     padding: 5px;
     display: flex;
     justify-content: center;
-    align-items: center;  
-    margin-right: 10px;  
+    align-items: center;
+    margin-right: 10px;
     border-radius: 5px;
     border: #2b2e36 3px solid;
 }
 
-.companyName{
+.companyName {
     font-size: 3rem;
     margin-top: 20px;
     margin-bottom: 0;
 }
 
-.companyEmail{
+.companyEmail {
     margin-top: 0;
     margin-bottom: 30px;
     color: #979797;
 }
 
-.cargoBoxesHeading{
+.cargoBoxesHeading {
     color: #979797;
     margin-bottom: 0;
 }
 
-.cargoBoxes{
+.cargoBoxes {
     border-radius: 10px;
     background-color: white;
     margin-top: 5px;
     width: fit-content;
-    padding:15px;
+    padding: 15px;
     min-width: 200px;
     color: #2b2e36;
 }
 
-.boxesHeading{
+.boxesHeading {
     color: #979797;
     font-weight: 100;
     margin-bottom: 0;
 }
 
-.amountOfBoxes{
+.amountOfBoxes {
     margin-top: 5px;
     font-size: 2rem;
     font-weight: 600;

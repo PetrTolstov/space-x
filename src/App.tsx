@@ -14,7 +14,6 @@ function App() {
                 <Search />
             </header>
             <main className="App">
-
                 <Tab />
             </main>
         </>

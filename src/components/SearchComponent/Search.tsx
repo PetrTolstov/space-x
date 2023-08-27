@@ -12,7 +12,7 @@ const Search = () => {
 
     const getSuggestions = (value: string): shipmentType[] => {
         const inputValueLower = value.toLowerCase();
-        if(value == "") return []
+        if(value === "") return []
         if (shimpmentsStore.list) {
             return shimpmentsStore.list?.filter(suggestion =>
                 suggestion.name.toLowerCase().includes(inputValueLower)

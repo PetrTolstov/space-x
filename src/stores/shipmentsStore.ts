@@ -23,6 +23,7 @@ class ShimpmentsStore {
     }
 
     *fetch(): Generator<Promise<Response>, void, any> {
+        yield new Promise(resolve => setTimeout(resolve, 3000));
         const response: Response = yield fetch("shipments.json"); 
         const shipments: jsonType = yield response.json();
         this.list = shipments.list;
