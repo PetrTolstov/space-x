@@ -1,6 +1,6 @@
 function calcBays(numbers: string) {
     let numbersStrList = numbers.split(",")
-    if (numbersStrList.at(0) == '') return []
+    if (numbersStrList.at(0) === '') return []
     let numbersList = numbersStrList.map((el) => parseFloat(el))
         .sort((a, b) => b - a)
 
