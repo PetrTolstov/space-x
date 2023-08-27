@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logoContainer{
+    width: 250px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+.logo{
+    height: 42px;
+}

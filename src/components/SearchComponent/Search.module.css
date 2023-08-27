@@ -1,0 +1,61 @@
+.input {
+    height: 42px;
+    width: 100%;
+    min-width: 200px;
+    max-width: 350px;
+    border-radius: 10px;
+    background: transparent;
+    margin: 0;
+    font-size: 14px;
+    color: inherit;
+    border-radius: inherit;
+    border: 1px solid #555;
+    padding: 9px 4px 9px 40px;
+    background: transparent url("/public/Zoom.svg") no-repeat 13px center;
+}
+.input::placeholder {
+    color: #303030;
+}
+
+.input:focus {
+    box-shadow: 0 0 3px 0 #2b2e36;
+    border-color: #2b2e36;
+    outline: none;
+}
+
+.searchForm {
+    color: #303030;
+    background-color: white;
+    height: 42px;
+    padding: 2px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    padding: 0;
+}
+
+.searchContainer {
+    width: 100%;
+    max-width: 350px;
+}
+
+.suggestionsList {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    min-width: 200px;
+    max-width: 350px;
+    position: absolute;
+    margin-top: 0;
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.suggestionItem {
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}

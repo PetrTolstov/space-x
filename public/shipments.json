@@ -11,6 +11,54 @@
             "name": "American Express",
             "email": "contact@americanexpress.com",
             "boxes": "6.2,5.9,4,6.9,4.4,1.7,9.5"
+        },
+        {
+            "id": "d3ff0c68894",
+            "name": "Airbnb",
+            "email": "contact@airbnb.com",
+            "boxes": "8.6,9.2,7.8"
+        },
+        {
+            "id": "d3ff0c68895",
+            "name": "Apple",
+            "email": "contact@apple.com",
+            "boxes": "9.8,9.7,9.9,8.5"
+        },
+        {
+            "id": "d3ff0c68896",
+            "name": "Google",
+            "email": "contact@google.com",
+            "boxes": "8.3,7.5,9.2,8.8"
+        },
+        {
+            "id": "d3ff0c68897",
+            "name": "Microsoft",
+            "email": "contact@microsoft.com",
+            "boxes": "7.4,8.6,6.5,9.1"
+        },
+        {
+            "id": "d3ff0c68898",
+            "name": "Tesla",
+            "email": "contact@tesla.com",
+            "boxes": "9.7,8.2,9.8,7.3"
+        },
+        {
+            "id": "d3ff0c68899",
+            "name": "Netflix",
+            "email": "contact@netflix.com",
+            "boxes": "8.9,7.1,8.4,9.6"
+        },
+        {
+            "id": "d3ff0c68900",
+            "name": "Facebook",
+            "email": "contact@facebook.com",
+            "boxes": "7.8,6.6,8.1,7.7"
+        },
+        {
+            "id": "d3ff0c68901",
+            "name": "Samsung",
+            "email": "contact@samsung.com",
+            "boxes": "6.5,7.3,8.7,6.1"
         }
     ]
 }
